@@ -1,4 +1,4 @@
-# Lotus_Trader⚘⟁_v3 — Who is Lotus_Trader⚘⟁? The Vision
+# Lotus_Trader⚘⟁_v3 — Who is Lotus_Trader⚘⟁? 
 
 > A universal trend-hunting system that learns how markets actually move.
 
