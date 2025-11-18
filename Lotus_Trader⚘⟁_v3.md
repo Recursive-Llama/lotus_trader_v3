@@ -1,4 +1,4 @@
-# Lotus_Trader⚘⟁_v3 — Product Vision (Narrative Edition)
+# Lotus_Trader⚘⟁_v3 — Who is Lotus_Trader⚘⟁? The Vision
 
 > A universal trend-hunting system that learns how markets actually move.
 
