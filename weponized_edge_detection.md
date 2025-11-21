@@ -30,19 +30,32 @@ It is the **statistical memory** of repeated behaviour.
 
 Lotus Trader⚘⟁ weaponizes this memory.
 
+```
 EDGE = ℏ × ψ(ω) × ∫(φ, θ, ρ, ⚘)
+```
 
-EV = delta_rr                               # ℏ
-reliability_weight = 1 / (1 + variance)      # ψ(ω)
+**Components:**
 
-support_term = log(1 + n)                    # φ
-magnitude_term = median_rr or tail_quality   # θ
-time_term = 1 / avg_duration                 # ρ
-decay_term = slope_of_rolling_EV             # ⚘
+| Variable | Definition | Symbol |
+|---------|------------|--------|
+| `EV` | `delta_rr` | ℏ |
+| `reliability_weight` | `1 / (1 + variance)` | ψ(ω) |
 
+**Integral Terms:**
+
+| Term | Definition | Symbol |
+|------|------------|--------|
+| `support_term` | `log(1 + n)` | φ |
+| `magnitude_term` | `median_rr` or `tail_quality` | θ |
+| `time_term` | `1 / avg_duration` | ρ |
+| `decay_term` | `slope_of_rolling_EV` | ⚘ |
+
+**Calculation:**
+
+```
 integral = support_term + magnitude_term + time_term + decay_term
-
-EDGE = EV * reliability_weight * integral
+EDGE = EV × reliability_weight × integral
+```
 
 ---
 
