@@ -1,4 +1,4 @@
-# Lotus_Trader⚘⟁_v3 Weaponized Advantage Detection
+# Lotus_Trader⚘⟁_v3 Weaponized Edge Detection
 
 ### *The Core Intelligence Behind Lotus Trader⚘⟁*
 
@@ -30,14 +30,28 @@ It is the **statistical memory** of repeated behaviour.
 
 Lotus Trader⚘⟁ weaponizes this memory.
 
+EDGE = ℏ × ψ(ω) × ∫(φ, θ, ρ, ⚘)
+
+EV = delta_rr                               # ℏ
+reliability_weight = 1 / (1 + variance)      # ψ(ω)
+
+support_term = log(1 + n)                    # φ
+magnitude_term = median_rr or tail_quality   # θ
+time_term = 1 / avg_duration                 # ρ
+decay_term = slope_of_rolling_EV             # ⚘
+
+integral = support_term + magnitude_term + time_term + decay_term
+
+EDGE = EV * reliability_weight * integral
+
 ---
 
-## **II. The Learning Layer — How the System Improves Itself**
+## **II. The Learning Layer — How the System Improves Edge**
 
 The learning layer is simple, surgical, and obsessive.
 Its only goal is to improve future behaviour by learning from past behaviour.
 
-It answers three questions:
+It answers three questions all based on Edge:
 
 ### **1. How much should we allocate to this token/pattern?**
 
