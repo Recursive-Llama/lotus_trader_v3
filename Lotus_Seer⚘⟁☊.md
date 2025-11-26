@@ -22,7 +22,7 @@ Everything in Seer is scope-based. Wallets do not have global skill; they have *
 A scope is defined by:
 
 1. `market_category` (politics, sports, crypto, macro)
-2. `odds_bucket` (longshot <20%, mid 20-60%, favorite >60%)
+2. `odds_bucket` (longshot <20%, mid 20-60%, favorite 60%-90%, farming 90%+)
 3. `bet_regime` (small / normal / large per wallet)
 4. `timing` (early / late relative to resolution)
 5. `insider_likelihood` (high / medium / low for market type)
